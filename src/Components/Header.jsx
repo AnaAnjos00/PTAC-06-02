@@ -1,7 +1,9 @@
 export default function Header() {
     return(
+        <nav>
         <header> 
-            <h1>Cabeçalho</h1>
+            <h1>Agenda</h1>
         </header>
+        </nav>
     );
 }
