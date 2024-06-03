@@ -2,8 +2,14 @@ body{
     background-image: url("https://wallpapercave.com/wp/wp9137371.jpg");
 }
 
-header{
+nav{
     background-color: rosybrown;
     font-family: Segoe script;
     text-align: center;
+    width: 100%;
+}
+
+Main{
+    text-align: center;
+    font-family: Segoe script;
 }
