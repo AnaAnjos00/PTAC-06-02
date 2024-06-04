@@ -7,9 +7,30 @@ nav{
     font-family: Segoe script;
     text-align: center;
     width: 100%;
+    font-size: medium;
 }
 
 Main{
     text-align: center;
     font-family: Segoe script;
+    font-size: medium;
 }
+
+button{
+    border-radius: 10px;
+    background-color: rosybrown;
+    text-align: center;
+    border-color: rosybrown;
+    font-family: Segoe script;
+    font-size: medium;
+}
+
+.respostas{
+    background-color: rosybrown;
+    text-align: center;
+    border-radius: 12px;
+    font-family: Segoe script;
+    font-size: m;
+}
+
+

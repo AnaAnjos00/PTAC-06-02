@@ -54,14 +54,17 @@ export default function Main() {
             id="telefone" 
             value={telefone}
             onChange={(event) => setTelefone(event.target.value)} />
+
+                <p><button type="submit" class="registerbtn">Registrar</button></p>
+
             </form>
 
             {listaContatos.map((contato, index) =>
-        <div key={index}>
+        <div className="respostas" key={index}>
             <p>{contato.nomeSalvo}</p>
-            <p>{telefoneSalvo}</p>
+            <p>{contato.telefoneSalvo}</p>
             <p><button onClick={() => Remover(index)}>X</button></p>
-
+            
         </div>
         )}
         </main>
