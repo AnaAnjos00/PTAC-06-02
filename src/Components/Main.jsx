@@ -19,11 +19,11 @@ export default function Main() {
         ]);
     };
 
-    const Remover = (id) => {
+    const remover = (id) => {
         alert(id);
     }
 
-    const remover = (id) => {
+    const Remover = (id) => {
         const novaLista = listaContatos.filter(
             (contato, index) =>{
                 if(index !== id){
